@@ -32,7 +32,7 @@ module.exports = class Translator {
 
   _apply (locale) {
     const prevLocale = this.locale
-    this.locale = Object.assign({}, prevLocale, {
+    this.locale = Object.assign({}, prevLocale, locale, {
       strings: Object.assign({}, prevLocale.strings, locale.strings)
     })
   }

@@ -1,6 +1,6 @@
-const Core = require('../../src/core/index.js')
-const russian = require('../../src/locales/ru_RU')
-const english = require('../../src/locales/en_US')
+const Core = require('./Core')
+const russian = require('../locales/ru_RU')
+const english = require('../locales/en_US')
 
 describe('core/translator', () => {
   describe('translate', () => {
