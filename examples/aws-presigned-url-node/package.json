@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "uppy-aws-presigned-url-node-example",
+  "scripts": {
+    "start": "node ./serve.js"
+  },
+  "devDependencies": {
+    "aliasify": "^2.1.0",
+    "babelify": "^7.3.0",
+    "budo": "^11.2.0",
+    "router": "^1.3.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2"
+  }
+}
