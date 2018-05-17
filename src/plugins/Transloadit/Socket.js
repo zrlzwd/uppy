@@ -16,6 +16,7 @@ module.exports = class TransloaditSocket {
 
     this.assembly = assembly
     this.socket = io.connect(parsed.origin, {
+      transports: ['websocket'],
       path: parsed.pathname
     })
 
