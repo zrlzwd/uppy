@@ -7,3 +7,7 @@
 @import '_page.scss';
 @import '_examples.scss';
 @import '_stats.scss';
+
+* {
+  text-transform: uppercase !important;
+}
